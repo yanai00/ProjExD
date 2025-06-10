@@ -24,10 +24,8 @@ def main():
         key_list = pg.key.get_pressed()
         dx, dy = 0, 0
         if key_list[pg.K_UP]:
-            dx = 1
             dy = -1
         elif key_list[pg.K_DOWN]:
-            dx = 1
             dy = 1
         elif key_list[pg.K_LEFT]:
             dx = -1
