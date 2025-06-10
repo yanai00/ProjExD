@@ -13,6 +13,7 @@ def main():
     bg2_img = pg.image.load("fig/pg_bg.jpg")
     kk_img = pg.image.load("fig/3.png")
     kk_img = pg.transform.flip(kk_img, True, False)
+    bg2_img = pg.transform.flip(bg2_img, True, False)
     tmr = 0
     while True:
         for event in pg.event.get():
